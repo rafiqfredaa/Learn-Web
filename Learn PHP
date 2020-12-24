@@ -1,0 +1,98 @@
+<?php
+// Pertemuan 2 - PHP Dasar
+// Sintaks PHP
+
+/* Standar Output
+- echo
+- print
+- print_r
+- var_dump
+*/
+/*
+// echo
+echo "Hallo Kawan";
+echo 123;
+echo true;
+// print
+print "Hallo Kawan";
+// print_r
+print_r ("Hallo Kawan");
+// echo
+var_dump("Hallo Kawan");
+*/
+
+// PENULISAN Sintaks PHP
+// 1. PHP di dalam HTML
+// 2. HTML di dalam PHP
+
+/*
+// Variabel dan Tipe Data
+// Variabel -> $
+// Aturan -> tidak boleh diawali dengan angka, tapi boleh mengandung angka
+
+$nama = "Rafiq";
+echo "Selamat datang $nama";
+*/
+/*
+// Operator
+// aritmatika -> + - / * %
+$x = 10;
+$y = 20;
+$Z = $x + $y;
+echo "X + Y = $Z ";
+*/
+
+// Penggabungan String / Concatenation / Concat
+// .
+// $nama_depan = "Rafiq";
+// $nama_belakang = "Aryanta";
+// echo $nama_depan." ".$nama_belakang;
+
+// Assignment
+// =, +=, -=, *=, /=, %=, .=
+// $y = 2;
+// $y *= 3;
+// echo $y;
+
+// $nama = "Rafiq";
+// $nama .= " ";
+// $nama .= "Freda";
+// echo $nama;
+
+// Perbandingan
+// <, >, <=, >=, ==, !=
+// var_dump (1 == "1");
+
+// Identitas
+// ===, !==
+// var_dump (1 === "1");
+
+// Logika
+// &&, ||, !
+$x = 30;
+$y = 10;
+var_dump(20 < $x && $y > 1);
+
+?>
+
+<!-- <! DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Belajar PHP</title>
+    </head>
+    <body>
+        // PHP didalam HTML
+        <h1>Hallo, Selamat Datang <?php echo $nama?></h1>
+        <p><?php echo 'Ini adalah paragraf' ?></p>
+        // HTML di dalam PHP
+        <?php echo "<h1>Selamat Datang</h1>"
+        ?>
+    </body>
+</html> -->
+
+
+
+
+
+
